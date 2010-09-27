@@ -1,0 +1,27 @@
+About:
+    SymPullCDN is a Google Application Engine program written 
+    in Python with the intent to allow Google Application 
+    Engine to function as a reverse caching proxy.  
+
+    Its primary purpose is to allow the offloading of static 
+    files to be served through Google Application Engine to 
+    save bandwidth and processing time on my own servers.
+
+    SymPullCDN makes an effort to be HTTP compliant, however 
+    some aspects of RFC 2616 have been ignored in the 
+    development of it for one reason or another.  If strict 
+    compliance to the HTTP Specification is required, you may 
+    want to take a look at Squid.  On the other hand, this is 
+    "Good Enough" for most situations.
+
+Known Bugs:
+    Some date formats provided by an origin HTTP server
+    may not be handled correctly.  If you experience
+    this please see "Reporting Bugs".
+
+Reporting Bugs:
+    Please send stack traces, debug output, and steps
+    to reproduce the bug to me at symkat@symkat.com.
+    
+    Please include the origin domain and URI.
+

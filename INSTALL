@@ -1,0 +1,13 @@
+1. Learn about Google AppEngine:
+    http://code.google.com/appengine/docs/whatisgoogleappengine.html
+
+2. Learn about Deploying an application:
+    http://code.google.com/appengine/articles/domains.html
+
+3. Change app.yaml => "application: *replace*me*"
+
+4. Change the configuration in main.py (origin = http://replace*me/)
+    This should be changed to the domain you are mirroring.
+
+5.  Deploy the application
+     Then check out http://yourappname.appspot.com/
